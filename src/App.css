@@ -3,3 +3,10 @@
 .main {
   font-family: 'Abril Fatface', cursive; 
 }
+
+/* Main.jsx */
+ul > li > a{
+  color: #F0F0F0;
+  text-decoration: none;
+  list-style-type: none;
+}
