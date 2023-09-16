@@ -1,12 +1,21 @@
 
 import './App.css';
+import NavigationBar from './pages/components/NavigationBar';
 import Main from './pages/Main'; 
+import Projects from './pages/Projects'; 
+import { BrowserRouter, Routes, Route } from 'react-router-dom'; 
 
 function App() {
   return (
-    <div className="main">
-      <Main/>      
-    </div>
+    <BrowserRouter>
+      <div className="main">
+        <NavigationBar/>
+        <Routes>
+          <Route path="/" element={<Main/>}/>
+          <Route path="/projects" element={<Projects/>}/>
+        </Routes>       
+      </div>
+    </BrowserRouter>
   );
 }
 
