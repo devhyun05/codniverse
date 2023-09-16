@@ -2,7 +2,8 @@ import '../App.css';
 const Main = () => {
     return (
 
-        <>  <video src={"/video/space.mp4"} autoPlay loop muted
+        <>  
+            <video src={"/video/space.mp4"} autoPlay loop muted
              style={{position: 'absolute', 
                      objectFit: 'cover',
                      width: '100vw',
