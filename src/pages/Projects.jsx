@@ -7,7 +7,7 @@ const Projects = () => {
                                 width: '100%', 
                                 justifyContent: 'center', 
                                 alignItems: 'center', 
-                                gap: '50px', 
+                                gap: '100px', 
                                 color: '#F0F0F0', 
                                 fontSize: '20px', 
                                 fontWeight: 'bold',
@@ -19,13 +19,25 @@ const Projects = () => {
                     </ul>
 
 
-                <div style={{display: 'flex', flexDirection:'row', justifyContent:'center', gap: '30px'}}>
-                    <a href="https://weatherclothesrecommendation-67b3a3b0816e.herokuapp.com/">
+                <div style={{display: 'flex', flexDirection:'row', justifyContent:'center', gap: '100px'}}>
+                    <div className='project-item'>
                         <img src="/img/weatherapp-preview.png" style={{borderRadius: '5px'}} alt="weatherapp preview" width="400px" height="250px"/> 
-                    </a>
-                    <a href="https://playpal.netlify.app/">
+                        <div className="content">
+                            <div className="text">
+                                <h2>Weather Clothes Recommendation</h2>
+                                <p>React JS / Node JS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='project-item'>
                         <img src="/img/playpal.png" style={{borderRadius: '5px'}} alt="weatherapp preview" width="400px" height="250px"/> 
-                    </a>
+                        <div className="content">
+                            <div className="text">
+                                <h2 style={{color: '#F0F0F0'}}>Sports League Management</h2>
+                                <p>React JS / Node JS / Express JS / MongoDB</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
 
