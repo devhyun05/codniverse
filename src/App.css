@@ -10,6 +10,9 @@ ul > li > a{
   text-decoration: none;
 }
 
+ul > li > a:hover {
+  text-decoration: underline;
+}
 /* Main.jsx */
 .fade-in-text {
   animation: fadeIn 3s;
@@ -66,6 +69,16 @@ ul > li > a{
 .project-title {
   color: #323232;
 }
+
 .project-stack-list {
   color: #0092CC;
+}
+
+.project-website-link {
+  text-decoration: none;
+  border: 2px solid red;
+}
+
+.project-website-link:hover {
+  background-color: blue;
 }

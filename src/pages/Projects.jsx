@@ -26,7 +26,7 @@ const Projects = () => {
                             <div className="text">
                                 <h2 className="project-title">Weather Clothes Recommendation</h2>
                                 <p className="project-stack-list">React JS / Node JS</p>
-                                <a href="https://weatherclothesrecommendation-67b3a3b0816e.herokuapp.com/">LEARN MORE</a>
+                                <a className="project-website-link" href="https://weatherclothesrecommendation-67b3a3b0816e.herokuapp.com/">LEARN MORE</a>
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ const Projects = () => {
                             <div className="text">
                                 <h2 className="project-title">Sports League Management</h2>
                                 <p className="project-stack-list">React JS / Node JS / Express JS / MongoDB</p>
-                                <a href="https://playpal.netlify.app/">LEARN MORE</a>
+                                <a className="project-website-link" href="https://playpal.netlify.app/">LEARN MORE</a>
                             </div>
                         </div>
                     </div>
