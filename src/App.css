@@ -4,9 +4,19 @@
   font-family: 'Abril Fatface', cursive; 
 }
 
-/* Main.jsx */
+/* NavigationBar.jsx */
 ul > li > a{
   color: #F0F0F0;
   text-decoration: none;
-  
+}
+
+/* Main.jsx */
+.fade-in-text {
+  animation: fadeIn 3s;
+}
+
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
