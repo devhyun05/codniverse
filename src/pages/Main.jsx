@@ -1,6 +1,6 @@
 import '../App.css'; 
 import { useState, useEffect } from 'react'; 
-
+import EarthImage from '../img/earth.png';
 
 const Main = () => {
 
@@ -10,7 +10,7 @@ const Main = () => {
     useEffect(() => {
         setTimeout(() => {
           setTimerToPrintTextOrImage(true);
-        }, 4000); // Set timer to 3 seconds
+        }, 3000); // Set timer to 3 seconds
       }, []);
     return (
         <>  
@@ -28,8 +28,8 @@ const Main = () => {
                                                          fontSize: '50px'}}>
                     {!timerToPrintTextOrImage ?  
                             '<div>Earth</div>' 
-                           : 
-                            <img src="../img/earth.png" alt="Earth"/>}
+                           :                             
+                            <img className='fade-in-text' src={EarthImage} style={{width: '400px', height: '400px'}}alt="Earth"/>}
                     
        
                 {/* <img className='face-in-text' src="/img/earth.png" style={{position: 'absolute', top: '35%', zIndex: '-1'}} alt="neptune planet" width="300px" height="300px"/>  */}       
