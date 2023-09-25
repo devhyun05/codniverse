@@ -23,6 +23,25 @@ ul > li > a:hover {
   100% {opacity: 1;}
 }
 
+
+
+.anim-typewriter {
+  overflow: hidden; 
+  animation: typewriter 1s steps(44) 1s 1 normal 
+  both,
+  blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 12em;}
+}
+
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
 /* Projects.jsx */
 .project-item {
   position: relative;
