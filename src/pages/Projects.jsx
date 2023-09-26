@@ -1,3 +1,6 @@
+import PlaypalImage from '../img/playpal.png';
+import WeatherAppImage from '../img/weatherapp-preview.png';
+
 const Projects = () => {
     return (
         <>  
@@ -5,9 +8,9 @@ const Projects = () => {
                     <h1 style={{textAlign: 'center', color: '#F0F0F0'}}>Projects</h1>
 
 
-                <div style={{display: 'flex', flexDirection:'row', justifyContent:'center'}}>
+                <div style={{display: 'flex', flexDirection:'row', justifyContent:'center', gap: '30px'}}>
                     <div className='project-item'>
-                        <img src="/img/weatherapp-preview.png" style={{borderRadius: '5px'}} alt="weatherapp preview" width="400px" height="250px"/> 
+                        <img src={WeatherAppImage} style={{borderRadius: '5px'}} alt="weatherapp preview" width="400px" height="250px"/> 
                         <div className="content">
                             <div className="text">
                                 <h2 className="project-title">Weather Clothes Recommendation</h2>
@@ -17,7 +20,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='project-item'>
-                        <img src="/img/playpal.png" style={{borderRadius: '5px'}} alt="weatherapp preview" width="400px" height="250px"/> 
+                        <img src={PlaypalImage} style={{borderRadius: '5px'}} alt="weatherapp preview" width="400px" height="250px"/> 
                         <div className="content">
                             <div className="text">
                                 <h2 className="project-title">Sports League Management</h2>
